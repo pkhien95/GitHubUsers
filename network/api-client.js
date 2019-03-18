@@ -1,5 +1,5 @@
 
-const API_BASE_URL = "​https://api.github.com/users/";
+const API_BASE_URL = "https://api.github.com/users/";
 
 export const getUser = async (userId) => {
 	try {

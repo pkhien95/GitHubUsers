@@ -12,12 +12,7 @@ export default class PersonScreen extends Component {
 		super(props);
 		this.state = {
 			isLoading: false,
-			data: {
-				name: "GrahamCampbell",
-				id: 0,
-				location: "fawfa",
-				avatar_url: "https://avatars1.githubusercontent.com/u/2829600?v=4"
-			}
+			data: null,
 		}
 	}
 	
